@@ -13,6 +13,10 @@ module.exports = {
       patterns: [{ from: 'src/icons' }],
     }),
   ],
+  devServer: {
+    historyApiFallback: true,
+    allowedHosts: 'all',
+  },
   module: {
     rules: [
       {
